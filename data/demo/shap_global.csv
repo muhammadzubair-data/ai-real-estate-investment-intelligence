@@ -1,0 +1,21 @@
+feature,label,mean_abs_shap
+log_comp_median,Median of 10 nearest comparable sales,0.2599722710987232
+tenure,Tenure,0.04607335552147327
+log_sector_type_median,"Postcode-sector median, same type (12m)",0.034163206495601846
+log_sector_median,"Postcode-sector median, all types (12m)",0.028886622955963472
+log_district_type_median,"Postcode-district median, same type (12m)",0.017822571019413504
+city,Market (city),0.0111251781509368
+month_of_year,Month of year,0.011117163596056382
+comp_mean_km,Average distance to comparables (km),0.010530018791510446
+property_type,Property type,0.010456513048672858
+city_momentum_3m,City price momentum (3m vs 12m),0.009561787262482644
+longitude,Longitude,0.008571486019135093
+latitude,Latitude,0.007693551642486385
+new_build,New build,0.006449990505262658
+log_city_type_median,"City median, same type (12m)",0.006014504288070462
+comp_max_km,Farthest comparable (km),0.005014186137818871
+sector_type_count,Sector sales of same type,0.004238544765375917
+log_prev_price_indexed,"Previous sale of this property, market-adjusted",0.003959107378097554
+sector_count,Sector sales in window,0.0033669137695165868
+months_since_prev,Months since previous sale,0.001061096214347719
+has_prev_sale,Has a previous sale,0.0

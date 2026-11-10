@@ -1,0 +1,28 @@
+{
+  "rows_read_national": 2382455,
+  "rows_in_markets": 199136,
+  "source_files": [
+    "pp-2024.csv",
+    "pp-2025.csv",
+    "pp-2026.csv"
+  ],
+  "removed_superseded_or_deleted": 0,
+  "removed_category_b": 44865,
+  "removed_property_type_other": 0,
+  "removed_price_or_date_out_of_range": 2,
+  "removed_missing_postcode": 24,
+  "removed_duplicate_sales": 471,
+  "postcodes_needed": 62489,
+  "postcodes_geocoded": 62481,
+  "sales_geocoded_to_postcode": 153766,
+  "sales_geocoded_to_sector_centroid": 8,
+  "removed_not_geocoded": 0,
+  "sales_final": 153774,
+  "properties_final": 151966,
+  "markets": 11,
+  "date_range": [
+    "2024-01-01",
+    "2026-09-30"
+  ],
+  "removed_incomplete_last_month": 1353
+}

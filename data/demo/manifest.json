@@ -1,0 +1,33 @@
+{
+  "project": "AI Real Estate Investment & Property Valuation Intelligence",
+  "package_version": "1.0.0",
+  "built_on": "2026-11-10",
+  "python": "3.11.9",
+  "markets": [
+    "Birmingham",
+    "Bradford",
+    "Bristol",
+    "Coventry",
+    "Leeds",
+    "Leicester",
+    "Liverpool",
+    "Manchester",
+    "Newcastle upon Tyne",
+    "Sheffield",
+    "Southampton"
+  ],
+  "counts": {
+    "sales": 152421,
+    "properties": 150669,
+    "markets": 11,
+    "postcode_sectors": 968
+  },
+  "date_range": [
+    "2024-01-01",
+    "2026-09-30"
+  ],
+  "currency": "GBP",
+  "attribution": "Contains HM Land Registry data \u00a9 Crown copyright and database right 2026. This data is licensed under the Open Government Licence v3.0. Contains OS data \u00a9 Crown copyright and database right 2026. Contains Royal Mail data \u00a9 Royal Mail copyright and database right 2026. Contains National Statistics data \u00a9 Crown copyright and database right 2026. Source: Office for National Statistics licensed under the Open Government Licence v3.0.",
+  "data_label": "Real HM Land Registry sales",
+  "build_seconds": 158.6
+}

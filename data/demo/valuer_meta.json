@@ -1,0 +1,29 @@
+{
+  "categories": {
+    "city": [
+      "Birmingham",
+      "Bradford",
+      "Bristol",
+      "Coventry",
+      "Leeds",
+      "Leicester",
+      "Liverpool",
+      "Manchester",
+      "Newcastle upon Tyne",
+      "Sheffield",
+      "Southampton"
+    ],
+    "property_type": [
+      "Detached",
+      "Flat/maisonette",
+      "Semi-detached",
+      "Terraced"
+    ],
+    "tenure": [
+      "Freehold",
+      "Leasehold"
+    ]
+  },
+  "conformal_q": 0.03795397717285492,
+  "n_trees": 803
+}
