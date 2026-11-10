@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+.DS_Store
+.streamlit/secrets.toml
+# downloaded source files are large and re-downloadable (see docs/data_provenance.md)
+data/raw/*
+!data/raw/README.md

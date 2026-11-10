@@ -1,0 +1,13 @@
+# Compatible release ranges for Python 3.11 and 3.12.
+# Resolve and test in CI; lock exact versions after a successful build.
+pandas>=2.2,<3
+numpy>=1.26.4,<2.3
+pyarrow>=15,<23
+scikit-learn>=1.4,<1.8
+lightgbm>=4.3,<5
+shap>=0.45,<0.51
+pyproj>=3.6,<3.8
+openpyxl>=3.1,<4
+streamlit>=1.40,<1.55
+plotly>=6,<7
+-e .

@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - name: Install
+        run: pip install -r requirements-dev.txt
+      - name: Lint
+        run: ruff check src app tests scripts
+      - name: Tests (finance worked examples, pipeline on fixture files, leakage, all 7 pages)
+        run: pytest -q
+      - name: App starts (smoke test)
+        run: |
+          streamlit run app/streamlit_app.py --server.headless true --server.port 8599 &
+          for i in $(seq 1 30); do curl -sf localhost:8599/_stcore/health && break; sleep 2; done
+          curl -sf localhost:8599/_stcore/health
